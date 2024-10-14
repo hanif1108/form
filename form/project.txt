@@ -1,0 +1,150 @@
+Application for the Internship 
+
+Are you ready to take the next step in your career and make a significant impact in your field?
+This application form offers an opportunity for exceptional individuals to immerse themselves in hands-on projects. It is designed to foster growth, collaboration, and entrepreneurship, providing applicants with valuable experience in solving real-world challenges.
+
+Apply now and become an integral part of an innovative team, working to drive progress and achieve extraordinary results.
+
+Application Form
+Personal Information
+1. Full Name
+   - First Name: Text field (Default Text: Enter your first name)
+   - Middle Name: Text field, Optional (Default Text: Enter your middle name (Optional))
+   - Last Name: Text field (Default Text: Enter your last name)
+2. Email Address (Primary contact method)
+   - Answer Type: Text field
+   - Default Text: Enter your email address
+3. Phone Number (Including area code)
+   - Answer Type: Text field
+   - Default Text: Enter your phone number
+4. Home Address (Street, City, State, Zip Code)
+   - Answer Type: Text fields (separate fields for Street, City, State, Zip Code)
+   - Default Text: Enter your street address, Enter your city, Enter your state, Enter your ZIP code
+5. Date of Birth
+   - Answer Type: Date picker
+   - Default Text: Select your date of birth
+6. Preferred Pronouns
+   - Answer Type: Dropdown menu
+   - Default Text: Select your preferred pronouns
+   - Options: He/Him, She/Her, They/Them, Prefer not to disclose
+7. LinkedIn Profile URL
+   - Answer Type: Text field
+   - Default Text: Enter your LinkedIn profile URL
+Educational Background
+1. University/College Location
+   - Answer Type: Dropdown menu
+   - Default Text: Select your country
+   - Options: Complete list of countries
+
+
+Instruction to Developer: If USA is selected in the University/College Location dropdown, display the Legal & Compliance section. If any other country is selected, do not display the Legal & Compliance section.
+
+
+2. University/College Name
+   - Answer Type: Text field
+   - Default Text: Enter your university/college name
+3. Degree Pursuing or Obtained (e.g., Bachelor’s, Master’s)
+   - Answer Type: Dropdown menu
+   - Default Text: Select your degree
+   - Options: Bachelor’s, Master’s, Doctorate, Other
+4. Major/Field of Study
+   - Answer Type: Text field
+   - Default Text: Enter your major/field of study
+5. Expected Graduation Date (Month, Year)
+   - Answer Type: Date picker (Month, Year)
+   - Default Text: Select your expected graduation date
+6. Current GPA
+   - Answer Type: Text field
+   - Default Text: Enter your GPA
+Internship Information
+1. Preferred Start Date (Day, Month, Year)
+   - Answer Type: Date picker
+   - Default Text: Select your preferred start date
+2. Preferred End Date (Day, Month, Year)
+   - Answer Type: Date picker
+   - Default Text: Select your preferred end date
+3. Availability (Full-time/Part-time)
+   - Answer Type: Dropdown menu
+   - Default Text: Select your availability
+   - Options: Full-time, Part-time
+Work Experience
+1. Previous Internships/Work Experience (Company, Position, Duration)
+   - Answer Type: Textarea
+   - Default Text: Enter your previous internships/work experience
+2. Relevant Skills (E.g., Software, Languages, Certifications)
+   - Answer Type: Textarea
+   - Default Text: Enter your relevant skills
+3. Resume Upload (PDF or Word Document)
+   - Answer Type: File upload
+   - Default Text: Upload your resume (PDF or Word Document)
+Additional Information
+1. Why are you interested in this internship? (Short answer)
+   - Answer Type: Textarea
+   - Default Text: Briefly explain why you are interested in this internship
+2. What do you hope to gain from this experience? (Short answer)
+   - Answer Type: Textarea
+   - Default Text: Describe what you hope to gain from this internship
+3. Describe a project or accomplishment that you are particularly proud of. (Short answer)
+   - Answer Type: Textarea
+   - Default Text: Describe a project or accomplishment you are proud of
+4. Cover Letter Upload (Optional, PDF or Word Document)
+   - Answer Type: File upload
+   - Default Text: Upload your cover letter (Optional, PDF or Word Document)
+---
+ Legal & Compliance (For USA applicants only)
+1. Are you legally authorized to work in the United States? (Yes/No)
+   - Answer Type: Dropdown menu
+   - Default Text: Select an option
+   - Options: Yes, No
+2. Will you now or in the future require sponsorship for employment visa status? (Yes/No)
+   - Answer Type: Dropdown menu
+   - Default Text: Select an option
+   - Options: Yes, No
+3. Are you currently on F-1 visa status? (Yes/No)
+   - Answer Type: Dropdown menu
+   - Default Text: Select an option
+   - Options: Yes, No
+4. Do you have authorization for Curricular Practical Training (CPT)? (Yes/No)
+   - Answer Type: Dropdown menu
+   - Default Text: Select an option
+   - Options: Yes, No
+5. If yes, please provide the start and end dates of your CPT authorization.
+   - Answer Type: Date picker (for both start and end dates)
+   - Default Text: Select start date and Select end date
+6. Have you used your full 12 months of CPT authorization? (Yes/No)
+   - Answer Type: Dropdown menu
+   - Default Text: Select an option
+   - Options: Yes, No
+7. If not, how many months of CPT authorization do you have remaining?
+   - Answer Type: Dropdown menu
+   - Default Text: Select number of months
+   - Options: 1 month, 2 months, 3 months, 4 months, 5 months, 6 months, 7 months, 8 months, 9 months, 10 months, 11 months
+8. Are you applying for CPT as part of your degree program? (Yes/No)
+   - Answer Type: Dropdown menu
+   - Default Text: Select an option
+   - Options: Yes, No
+9. What documents or information would you require from us to process your CPT authorization?
+   - Answer Type: Textarea
+   - Default Text: Please specify any documents or information required
+
+   
+Confirmation & Consent (Checkboxes)
+1. Checkbox Text: I certify that the information provided is true, complete, and accurate to the best of my knowledge. I understand that any false statements, omissions, or misrepresentations may lead to the rejection of my application or termination of my internship.
+2. Checkbox Text: I consent to the storage and processing of my personal data for evaluating my eligibility for the Internship, in accordance with the privacy policy of the company.
+3. Checkbox Text: I agree to receive emails from the company related to this internship, other opportunities, updates, and newsletters. I understand that I can unsubscribe or manage my preferences at any time. 
+
+
+
+
+
+
+
+
+
+
+ After Form Submission
+- Submission Message: Thank you for applying to the Internship. Your application has been successfully submitted. Our team will review your application, and if you are shortlisted, we will contact you with the next steps.
+- Submission Date: Automatically collected by the form.
+- Form stores data in Notion DB.
+
+

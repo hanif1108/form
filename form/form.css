@@ -1,0 +1,136 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif, Geneva, Verdana,
+    sans-serif;
+  line-height: 1.5;
+}
+
+/* textarea styles */
+textarea {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 500px;
+}
+
+/* input styles */
+input {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 200px;
+}
+
+/* dropdown styles */
+select {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 200px;
+}
+
+option {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 200px;
+}
+
+/* date style */
+input[type="date"] {
+  max-width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 200px;
+}
+
+/* form styles */
+#formOne {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 20px;
+}
+
+#formOne p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* button style */
+.apple-button {
+  background-color: #007aff; /* Apple's signature blue */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  border: none;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.apple-button:hover {
+  background-color: #005bbb; /* Darker shade on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.apple-button:active {
+  background-color: #003e75; /* Even darker shade on click */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* confirmation container */
+#confirmationContainer {
+  margin: 20px auto;
+}
+
+#confirmationContainer p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#confirmationContainer label {
+  display: block;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#confirmationContainer input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(
+    1.2
+  ); /* Slightly larger checkboxes for ease of interaction */
+}
+
+.float-checkbox {
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+  transform: scale(2);
+  cursor: pointer;
+  max-width: 20px;
+}
+
+#confirmationContainer label:hover {
+  color: #007aff;
+}
